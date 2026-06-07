@@ -416,7 +416,7 @@ else:
 
                 for rank, (name, score) in enumerate(ranking, start=1):
 
-                    if score >= 0.75:
+                    if score >= 0.70:
                         decision = "✅ Hire Candidate"
                     elif score >= 0.45:
                         decision = "💡 Shortlist"
